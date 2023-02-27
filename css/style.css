@@ -31,7 +31,16 @@ header{
 
 /* MAIN */
 /* jumbotron */
+.ms_jumbotron,
+.ms_about{
+    background-color: lightblue;
+}
 .ms_img{
     width: 200px;
     margin: 0 auto;
+}
+
+/* about */
+.ms_about .ms_col{
+    margin-bottom: 1rem;
 }
