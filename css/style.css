@@ -28,3 +28,10 @@ header{
 .ms_menu-list li{
     margin-left: 1rem;
 }
+
+/* MAIN */
+/* jumbotron */
+.ms_img{
+    width: 200px;
+    margin: 0 auto;
+}
