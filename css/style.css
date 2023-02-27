@@ -2,3 +2,29 @@
 img{
     width: 100%;
 }
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* HEADER */
+
+/* header */
+header{
+    height: 80px;
+    /* Debug */
+    background-color: aquamarine;
+}
+
+.col-6{
+    /* Debug */
+    border: 1px solid red;
+}
+
+/* Headermenu */
+.ms_menu-list li{
+    margin-left: 1rem;
+}
