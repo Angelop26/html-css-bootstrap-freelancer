@@ -44,3 +44,13 @@ header{
 .ms_about .ms_col{
     margin-bottom: 1rem;
 }
+
+/* FOOTER */
+/* ft top */
+.ms_ft-top{
+    background-color: lightgreen;
+}
+
+.ms_ft-bottom{
+    background-color: gray;
+}
