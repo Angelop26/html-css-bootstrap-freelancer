@@ -46,7 +46,10 @@ header{
 
 .navbar-brand,
 .nav-link,
-.ms_about{
+.ms_about
+.navbar-brand:hover,
+.nav-link:hover,
+a:hover{
     color: white;
 }
 
@@ -54,13 +57,6 @@ header{
     border-color: white;
     color: white;
 }
-
-.navbar-brand:hover,
-.nav-link:hover,
-a:hover{
-    color: white;
-}
-
 
 /* MAIN */
 /* jumbotron */
@@ -95,10 +91,6 @@ a:hover{
 .form-control:focus{
     box-shadow: none;
     border-color: currentColor;
-}
-
-textarea{
-    height: 90px;
 }
 
 .btn{
