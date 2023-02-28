@@ -12,9 +12,13 @@ a{
 }
 
 /* COMMON */
+.container{
+    max-width: 992px;
+}
 .ms_small-container{
     width: 60%;
     margin: 0 auto;
+    max-width: 768px;
 }
 .ms_line{
     width: 10%;
@@ -35,6 +39,11 @@ header{
     background-color: #2C3E50;
 }
 
+.navbar-toggler-icon{
+    background: none;
+    line-height: 1.5em;
+}
+
 .navbar-brand,
 .nav-link,
 .ms_about{
@@ -46,6 +55,11 @@ header{
     color: white;
 }
 
+.navbar-brand:hover,
+.nav-link:hover,
+a:hover{
+    color: white;
+}
 
 
 /* MAIN */
@@ -102,6 +116,23 @@ textarea{
     background-color: #3A546D;
 }
 
+.ms_entity{
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.ms_ft-bootstrap{
+    color: #1ABC9C;
+}
+
 .ms_ft-bottom{
+    height: 50px;
     background-color: #2C3E50;
+}
+
+.ms_ft-bottom p{
+    line-height: 50px;
 }
