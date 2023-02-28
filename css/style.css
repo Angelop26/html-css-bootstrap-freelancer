@@ -12,6 +12,10 @@ a{
 }
 
 /* COMMON */
+.ms_small-container{
+    width: 60%;
+    margin: 0 auto;
+}
 .ms_line{
     width: 10%;
     height: 1px;
@@ -57,7 +61,7 @@ header{
 }
 
 .ms_a-container{
-    padding: 3rem;
+    padding: 2rem;
 }
 .ms_button{
     border: 1px solid white;
@@ -66,6 +70,32 @@ header{
     padding: 10px;
 }
 
+/* contact me */
+.form-control{
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: currentColor;
+}
+
+textarea{
+    height: 90px;
+}
+
+.btn{
+    color: white;
+    background-color: #1ABC9C;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #1ABC9C;
+}
 /* FOOTER */
 /* ft top */
 .ms_ft-top{
