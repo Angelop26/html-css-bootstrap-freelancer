@@ -10,31 +10,42 @@ ul{
 a{
     text-decoration: none;
 }
-/* HEADER */
 
+/* COMMON */
+.ms_line{
+    width: 10%;
+    height: 1px;
+    border: 2px solid ;
+    border-radius: 20px;
+}
+
+.ms_jumbotron,
+.ms_about{
+    background-color: #1ABC9C;
+}
+
+/* HEADER */
 /* header */
 header{
     height: 80px;
-    /* Debug */
-    background-color: aquamarine;
+    background-color: #2C3E50;
 }
 
-.col-6{
-    /* Debug */
-    border: 1px solid red;
+.navbar-brand,
+.nav-link,
+.ms_about{
+    color: white;
 }
 
-/* Headermenu */
-.ms_menu-list li{
-    margin-left: 1rem;
+.navbar-toggler{
+    border-color: white;
+    color: white;
 }
+
+
 
 /* MAIN */
 /* jumbotron */
-.ms_jumbotron,
-.ms_about{
-    background-color: lightblue;
-}
 .ms_img{
     width: 200px;
     margin: 0 auto;
@@ -45,12 +56,22 @@ header{
     margin-bottom: 1rem;
 }
 
+.ms_a-container{
+    padding: 3rem;
+}
+.ms_button{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+
 /* FOOTER */
 /* ft top */
 .ms_ft-top{
-    background-color: lightgreen;
+    background-color: #3A546D;
 }
 
 .ms_ft-bottom{
-    background-color: gray;
+    background-color: #2C3E50;
 }
